@@ -1,0 +1,9 @@
+streamlit
+openai
+chromadb
+redis
+beautifulsoup4
+requests
+numpy
+scikit-learn
+fastapi

@@ -1,0 +1,5 @@
+chroma_db/
+__pycache__
+poetry.lock
+/dist/
+app.py

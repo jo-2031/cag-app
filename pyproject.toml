@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["jo-2031 <jothika.r20@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.44.1"
+openai = "^1.71.0"
+chromadb = "^1.0.3"
+redis = "^5.2.1"
+beautifulsoup4 = "^4.13.3"
+requests = "^2.32.3"
+numpy = "^2.2.4"
+scikit-learn = "^1.6.1"
+fastapi = "0.115.9"
+watchdog = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
