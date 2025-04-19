@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 
 st.set_page_config(layout="wide")
-st.title("🤖 Chatbot Interface")
+st.title("🤖 CAG Application")
 
 # Sidebar controls
-st.sidebar.title("🔧 Controls")
+st.sidebar.title("Extract and Load")
 sidebar_input = st.sidebar.text_input("Enter the URL:")
 
 if st.sidebar.button("Extract and Load"):
